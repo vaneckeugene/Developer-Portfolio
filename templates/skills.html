@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Skills</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="{% static 'css/portfolio_styles.css'%}" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        #header {
+            background-color: #f8f9fa;
+            padding: 40px;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #header h1 {
+            color: #333;
+            font-size: 36px;
+            font-weight: 700;
+        }
+
+        #header h4 {
+            color: #666;
+            font-size: 18px;
+        }
+    </style>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</head>
+<body>
+    <div class="row">
+        <div class="overview-container">
+            <div class="col-md-3 offset-md-1">
+                <h2 class="skill_header"><i class="fas fa-user"></i>Overview:</h2>
+            </div>
+            <div class="col-md-3 offset-md-1">
+                <h2 class="skill_header"><i class="fas fa-briefcase"></i>Work Experience:</h2>
+            </div>
+            <div class="col-md-3 offset-md-1">
+                <h2 class="skill_header"><i class="fas fa-code"></i>Skills:</h2>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="skills-container">
+            <div class="col-md-3 offset-md-1">
+                <ul>
+                    <li>I'm 24 years old.</li>
+                    <li>I live in Johannesburg.</li>
+                    <li>I am hardworking and efficient.</li>
+                    <li>I never give up. NEVER.</li>
+                    <li>I am ruthless in my ambition.</li>
+                </ul>
+            </div>
+            <div class="col-md-3 offset-md-1">
+                <ul>
+                    <li>6 months as a casual waiter. <iconify-icon icon="carbon:person"></iconify-icon></li>
+                    <li>4 years at private security. <iconify-icon icon="ic:twotone-security"></iconify-icon></li>
+                    <li>24 years at learning life skills. <iconify-icon icon="game-icons:skills"></iconify-icon></li>
+                </ul>
+            </div>
+            <div class="col-md-3 offset-md-1">
+                <ul>
+                    <li>Python <iconify-icon icon="logos:python"></iconify-icon></li>
+                    <li>Django <iconify-icon icon="simple-icons:django"></iconify-icon></li>
+                    <li>MySQL <iconify-icon icon="logos:mysql"></iconify-icon></li>
+                    <li>SQLite 3 <iconify-icon icon="skill-icons:sqlite"></iconify-icon></li>
+                    <li>HTML <iconify-icon icon="logos:html-5"></iconify-icon></li>
+                    <li>Social skills <iconify-icon icon="mdi:talking"></iconify-icon></li>
+                    <li>Logical thinker <iconify-icon icon="carbon:logical-partition"></iconify-icon></li>
+                    <li>Patient <iconify-icon icon="material-symbols:patient-list"></iconify-icon></li>
+                    <li>Rational <iconify-icon icon="carbon:chat-operational"></iconify-icon></li>
+                    <li>Expansive thinker <iconify-icon icon="fa:expand"></iconify-icon></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
